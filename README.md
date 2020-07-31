@@ -84,11 +84,11 @@
 
 > yum install -y uwsgi
 
-> yum install uwsgi-plugin-python3
+> yum install uwsgi-plugin-python3(安装的这个包的版本要和python的版本保持一致)
 
 #### 配置uwsgi
 
-> 把uwsgi.ini文件放到flask文件夹的根目录下((配置文件中有注释))
+> 把uwsgi.ini文件放到flask文件夹的根目录下(我的flask文件夹路径是/root/flask,如果各位不是这个路径,需要到uwsgi.ini文件和flask.conf中修改文件的路径)
 
 #### 启动uwsgi
 
